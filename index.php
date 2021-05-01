@@ -20,7 +20,7 @@
 
   <!-- Custom styles for this template -->
   <link href="http://myblog.local/wp-content/themes/myblog/css/clean-blog.min.css" rel="stylesheet">
-
+<?php wp_head(); ?>
 </head>
 
 <body>
@@ -177,7 +177,7 @@
 
   <!-- Custom scripts for this template -->
   <script src="http://myblog.local/wp-content/themes/myblog/js/clean-blog.min.js"></script>
-
+<?php wp_footer(); ?>
 </body>
 
 </html>
