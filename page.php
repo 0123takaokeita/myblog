@@ -13,8 +13,13 @@
   <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
 
+      <?php
+      $img = get_eyechatch();
+      ?>
+
+
       <!-- Page Header -->
-      <header class="masthead" style="background-image: url('img/about-bg.jpg')">
+      <header class="masthead" style="background-image: url('<?php echo $img[0]; ?>')">
         <div class="overlay"></div>
         <div class="container">
           <div class="row">
