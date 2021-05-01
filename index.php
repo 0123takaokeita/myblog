@@ -79,7 +79,7 @@
                   <?php the_title('■ '); ?>
                 </h2>
                 <h3 class="post-subtitle">
-
+                  <?php the_excerpt(); ?>
                 </h3>
               </a>
               <p class="post-meta">
