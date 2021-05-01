@@ -74,7 +74,7 @@
         <?php if (have_posts()) : ?>
           <?php while (have_posts()) : the_post(); ?>
             <div class="post-preview">
-              <a href="post.html">
+              <a href="<?php the_permalink(); ?>">
                 <h2 class="post-title">
                   <?php the_title('■ '); ?>
                 </h2>
