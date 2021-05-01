@@ -79,12 +79,12 @@
                   <?php the_title('■ '); ?>
                 </h2>
                 <h3 class="post-subtitle">
-                  Problems look mighty small from 150 miles up
+
                 </h3>
               </a>
-              <p class="post-meta">Posted by
-                <a href="#">Start Bootstrap</a>
-                on September 24, 2019
+              <p class="post-meta">
+                Posted by 
+                on <?php the_time(get_option('date_format')); ?>
               </p>
             </div>
             <hr>
