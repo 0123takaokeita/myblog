@@ -21,7 +21,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
+              <a href="">
                 <span class="fa-stack fa-lg">
                   <i class="fas fa-circle fa-stack-2x"></i>
                   <i class="fab fa-github fa-stack-1x fa-inverse"></i>
@@ -29,7 +29,7 @@
               </a>
             </li>
           </ul>
-          <p class="copyright text-muted">Copyright &copy; Your Website 2020</p>
+          <p class="copyright text-muted">Copyright &copy; TakaoKeita 2020</p>
         </div>
       </div>
     </div>
