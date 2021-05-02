@@ -17,7 +17,7 @@
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="site-heading">
             <h1><?php bloginfo('name'); ?></h1>
-            <span class="subheading"><?php bloginfo('discripton'); ?></span>
+            <span class="subheading"><?php bloginfo('description'); ?></span>
           </div>
         </div>
       </div>
