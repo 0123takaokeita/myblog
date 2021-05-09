@@ -8,9 +8,14 @@
 <body>
 
   <?php get_template_part('includes/header'); ?>
+  <?php
 
+  $id = get_post_thumbnail_id();
+  $img = wp_get_attachment_image_src($id, 'large');
+  $img = array(get_template_directory_uri() . '/img/home-bg.jpg');
+  ?>
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/home-bg.jpg')">
+  <header class="masthead" style="background-image: url('<?php echo $img[0]; ?>')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
